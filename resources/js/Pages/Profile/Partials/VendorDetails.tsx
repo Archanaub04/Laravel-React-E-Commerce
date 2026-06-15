@@ -129,7 +129,7 @@ function VendorDetails({ className = "" }: { className?: string }) {
                   onChange={(event) =>
                     setData("store_address", event.target.value)
                   }
-                  className="textarea textarea-bordered w-full mt-1 focus:border-violet-900 focus:ring-1 focus:ring-violet-900 dark:focus:border-indigo-600 dark:focus:ring-1 dark:focus:ring-indigo-600 focus:outline-none transition-all duration-200 ease-in-out"
+                  className="textarea textarea-bordered w-full mt-1 focus:border-orange-900 focus:ring-1 focus:ring-orange-900 dark:focus:border-orange-600 dark:focus:ring-1 dark:focus:ring-orange-600 focus:outline-none transition-all duration-200 ease-in-out"
                   placeholder="Enter Your Store Address"
                 ></textarea>
 

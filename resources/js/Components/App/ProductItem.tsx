@@ -53,7 +53,7 @@ function ProductItem({ product }: { product: Product }) {
           <button
             onClick={addToCart}
             title="Add to Cart"
-            className="bg-white p-2 rounded-full shadow hover:bg-blue-100"
+            className="bg-white p-2 rounded-full shadow hover:bg-orange-100"
           >
             <FaCartPlus className="text-gray-600 w-5 h-5" />
           </button>
@@ -69,7 +69,7 @@ function ProductItem({ product }: { product: Product }) {
       </figure>
 
       <div className="p-4 space-y-2">
-        <h3 className="text-base font-semibold text-gray-800 hover:text-indigo-600">
+        <h3 className="text-base font-semibold text-gray-800 hover:text-orange-600">
           <Link href={route("product.show", product.slug)}>
             {product.title}
           </Link>
@@ -77,7 +77,7 @@ function ProductItem({ product }: { product: Product }) {
 
         <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500">
           <Link href={route("product.byDepartment", product.department.slug)}>
-            <span className="bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full">
+            <span className="bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full">
               {product.department.name}
             </span>
           </Link>
@@ -92,7 +92,7 @@ function ProductItem({ product }: { product: Product }) {
         </p>
 
         <div className="flex items-center gap-3 pt-2">
-          <span className="text-lg font-bold text-indigo-600">
+          <span className="text-lg font-bold text-orange-600">
             <CurrencyFormatter amount={product.price} />
           </span>
           {/* {product.price + 20 > product.price && (
@@ -111,10 +111,10 @@ function ProductItem({ product }: { product: Product }) {
         {/* ✅ Vendor Link */}
         {product.user.store_name && (
           <div className="pt-1 text-sm">
-            <span className="text-gray-500">Sold by </span>
+            <span className="text-gray-500">From </span>
             <Link
               href={route("vendor.profile", product.user.store_name)}
-              className="text-blue-600 hover:underline"
+              className="text-orange-600 hover:underline"
             >
               {product.user.name}
             </Link>

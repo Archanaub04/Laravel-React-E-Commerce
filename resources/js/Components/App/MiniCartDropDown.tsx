@@ -25,7 +25,7 @@ function MiniCartDropDown() {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
               />
             </svg>
-            <span className="badge badge-sm indicator-item bg-purple-800 text-white">
+            <span className="badge badge-sm indicator-item bg-orange-800 text-white">
               {totalQuantity}
             </span>
           </div>
@@ -81,7 +81,7 @@ function MiniCartDropDown() {
             <div className="card-actions">
               <Link
                 href={route("cart.index")}
-                className="btn bg-purple-800 text-white hover:bg-purple-700 btn-block"
+                className="btn bg-orange-800 text-white hover:bg-orange-700 btn-block"
               >
                 View cart
               </Link>

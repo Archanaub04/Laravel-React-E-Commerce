@@ -11,14 +11,13 @@ export default function Home({
   return (
     <AuthenticatedLayout>
       <Head title="Home" />
-      <div className="hero bg-gray-200 h-[300px]">
+      <div className="hero bg-orange-200 h-[300px]">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Hello there</h1>
+            <h1 className="text-5xl font-bold">Welcome to E-Commerce Core 2</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Get 50% off on your first purchase! Explore our wide range of
+              products and enjoy exclusive deals.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>

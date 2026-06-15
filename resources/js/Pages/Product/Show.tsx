@@ -211,7 +211,7 @@ function Show({
                 key={option.id}
                 className={`cursor-pointer border rounded p-1 ${
                   selectedOptions[type.id]?.id === option.id
-                    ? "border-2 border-violet-600"
+                    ? "border-2 border-orange-600"
                     : "border-gray-300"
                 }`}
               >
@@ -259,7 +259,7 @@ function Show({
           id="quantity"
           value={form.data.quantity}
           onChange={handleQuantitySelect}
-          className="text-sm px-2 py-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-purple-500"
+          className="text-sm px-2 py-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-orange-500"
         >
           {Array.from(
             { length: computedProduct.quantity },
@@ -274,7 +274,7 @@ function Show({
 
       <button
         onClick={addToCart}
-        className="bg-purple-800 hover:bg-purple-700 text-white text-sm font-medium px-3 py-2 rounded-md transition flex items-center gap-1.5 shadow-sm"
+        className="bg-orange-800 hover:bg-orange-700 text-white text-sm font-medium px-3 py-2 rounded-md transition flex items-center gap-1.5 shadow-sm"
       >
         <FaCartPlus className="w-4 h-4" />
         Add to Cart

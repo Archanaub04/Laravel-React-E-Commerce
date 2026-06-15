@@ -54,7 +54,7 @@ export default function AuthenticatedLayout({
   }, [props.success]);
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen bg-orange-100 dark:bg-orange-900">
       <NavBar />
 
       {props.error && (

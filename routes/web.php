@@ -76,6 +76,16 @@ Route::middleware('auth')->group(function () {
         Route::post('become-a-vendor', [VendorController::class, 'store'])->name('vendor.store');
     });
 
+
+    Route::get('search', function() {
+     $query = ''; // <-- Change the query for testing.
+     // Visit the /search route in your web browser to see articles that match the test $query.
+
+     $articles = App\Models\Product::search($query)->get();
+
+     return $articles;
+ });
+
     // -----------------------------------------------------------------------------
 });
 

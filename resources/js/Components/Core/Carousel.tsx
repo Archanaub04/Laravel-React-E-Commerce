@@ -13,7 +13,7 @@ function Carousel({ images }: { images: Image[] }) {
             key={image.id}
             onClick={() => setActiveIndex(index)}
             className={`flex-shrink-0 w-14 h-14 border-2 rounded-md overflow-hidden ${
-              index === activeIndex ? "border-blue-500" : "border-transparent"
+              index === activeIndex ? "border-orange-500" : "border-transparent"
             }`}
           >
             <img

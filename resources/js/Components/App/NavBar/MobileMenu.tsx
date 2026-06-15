@@ -68,7 +68,7 @@ export default function MobileMenu({
           <li>
             <Link
               href={route("dashboard")}
-              className="block px-3 py-1 text-sm hover:text-purple-600"
+              className="block px-3 py-1 text-sm hover:text-orange-600"
             >
               Home
             </Link>
@@ -76,7 +76,7 @@ export default function MobileMenu({
           <li>
             <Link
               href={route("shop")}
-              className="block px-3 py-1 text-sm hover:text-purple-600"
+              className="block px-3 py-1 text-sm hover:text-orange-600"
             >
               Shop
             </Link>
@@ -84,7 +84,7 @@ export default function MobileMenu({
           <li>
             <Link
               href="/about"
-              className="block px-3 py-1 text-sm hover:text-purple-600"
+              className="block px-3 py-1 text-sm hover:text-orange-600"
             >
               About
             </Link>
@@ -92,7 +92,7 @@ export default function MobileMenu({
           <li>
             <Link
               href="/contact"
-              className="block px-3 py-1 text-sm hover:text-purple-600"
+              className="block px-3 py-1 text-sm hover:text-orange-600"
             >
               Contact
             </Link>
@@ -102,13 +102,13 @@ export default function MobileMenu({
             <li className="flex flex-col space-y-2 border-t border-gray-200 pt-2">
               <Link
                 href={route("login")}
-                className="btn btn-ghost btn-sm rounded-lg hover:bg-purple-700 hover:text-white"
+                className="text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 px-3 py-1.5 rounded-md"
               >
                 Log in
               </Link>
               <Link
                 href={route("register")}
-                className="text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 px-3 py-1.5 rounded-md"
+                className="text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 px-3 py-1.5 rounded-md"
               >
                 Register
               </Link>

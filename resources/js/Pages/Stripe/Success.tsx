@@ -33,7 +33,7 @@ function Success({ orders }: PageProps<{ orders: Order[] }>) {
                 <span className="font-medium">Seller</span>
                 <Link
                   href="#"
-                  className="text-indigo-600 hover:underline dark:text-indigo-400"
+                  className="text-orange-600 hover:underline dark:text-orange-400"
                 >
                   {order.vendorUser.store_name}
                 </Link>
@@ -55,7 +55,7 @@ function Success({ orders }: PageProps<{ orders: Order[] }>) {
             <div className="flex flex-col sm:flex-row sm:justify-between gap-3">
               <Link
                 href="#"
-                className="btn bg-purple-800 hover:bg-purple-700 text-white rounded-full"
+                className="btn bg-orange-800 hover:bg-orange-700 text-white rounded-full"
               >
                 View Order Details
               </Link>

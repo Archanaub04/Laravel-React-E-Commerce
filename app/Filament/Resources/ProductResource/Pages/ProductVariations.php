@@ -258,8 +258,8 @@ class ProductVariations extends EditRecord
             $variationTypeOptionIds = [];
 
             // making the array [9,10] format
-            foreach ($this->record->variationTypes as $i => $variationType) {
-                $variationTypeOptionIds[] = $option['variation_type_' . ($variationType->id)]['id'];
+            foreach ($this->record->variationTypes as $id => $variationType) {
+                $variationTypeOptionIds[] = $option['variation_type_' . $variationType->id]['id'];
             }
 
             $quantity = $option['quantity'];

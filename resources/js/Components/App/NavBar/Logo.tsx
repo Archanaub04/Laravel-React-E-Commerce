@@ -5,8 +5,8 @@ export default function Logo() {
   return (
     <Link href="/" className="flex-shrink-0">
       <img
-        src="/images/logo-karthive-removebg.jpg"
-        alt="Karthive"
+        src="/images/logo-ecommerce-removebg.jpg"
+        alt="{{config('app.name')}}"
         className="h-8 w-auto"
       />
     </Link>

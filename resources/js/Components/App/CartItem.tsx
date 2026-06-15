@@ -110,7 +110,7 @@ function CartItem({ item }: { item: CartItemType }) {
                 Delete
               </button>
 
-              <button className="btn btn-sm btn-ghost text-purple-600">
+              <button className="btn btn-sm btn-ghost text-orange-600">
                 Save for Later
               </button>
             </div>

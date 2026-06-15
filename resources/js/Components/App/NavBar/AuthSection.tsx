@@ -11,7 +11,7 @@ export default function AuthSection({ user }: AuthSectionProps) {
     return (
       <div className="dropdown dropdown-end">
         <div tabIndex={0} className="btn btn-ghost btn-circle avatar">
-          <div className="w-8 rounded-full ring ring-purple-600 ring-offset-1">
+          <div className="w-8 rounded-full ring ring-orange-600 ring-offset-1">
             <img
               alt="User avatar"
               src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
@@ -47,13 +47,13 @@ export default function AuthSection({ user }: AuthSectionProps) {
     <div className="hidden lg:flex lg:items-center lg:space-x-3">
       <Link
         href={route("login")}
-        className="btn btn-ghost btn-sm rounded-lg hover:bg-purple-700 hover:text-white"
+        className="btn btn-ghost btn-sm rounded-lg hover:bg-orange-700 hover:text-white"
       >
         Log in
       </Link>
       <Link
         href={route("register")}
-        className="text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 px-3 py-1.5 rounded-md"
+        className="text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 px-3 py-1.5 rounded-md"
       >
         Register
       </Link>

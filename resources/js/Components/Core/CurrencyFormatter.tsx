@@ -8,9 +8,9 @@ type CurrencyFormatterProps = {
 
 function CurrencyFormatter({
   amount,
-  currency = "USD",
-  locale = "en-US",
-}: CurrencyFormatterProps) {
+  currency = "PHP",
+  locale = "en-PH",
+}: CurrencyFormatterProps): string {
   return new Intl.NumberFormat(locale, {
     style: "currency",
     currency,

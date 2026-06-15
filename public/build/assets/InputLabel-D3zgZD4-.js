@@ -1,0 +1,1 @@
+import{j as s}from"./app-B6E0w6L4.js";function r({value:e,className:l="",children:a,...n}){return s.jsx("label",{...n,className:"label fieldset"+l,children:s.jsx("span",{className:"fieldset-legend",children:e||a})})}export{r as I};

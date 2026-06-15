@@ -23,10 +23,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        if ($this->app->isLocal()) {
-            $this->app->register(DebugbarServiceProvider::class);
-            $this->app->register(TelescopeServiceProvider::class);
-        }
+        if (config('app.env') === 'local') {
+        $this->app->register(DebugbarServiceProvider::class);
+        $this->app->register(TelescopeServiceProvider::class);
+    }
 
         $this->app->singleton(CartInterface::class, function ($app) {
             return new CartService($app->make(CartRepositoryInterface::class));

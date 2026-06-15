@@ -18,10 +18,7 @@ function Index({
         <title>{department.name}</title>
         <meta name="title" content={department.meta_title} />
         <meta name="description" content={department.meta_description} />
-        <link
-          rel="canonical"
-          href={route("product.byDepartment", department.slug)}
-        />
+        <link rel="canonical" href={route("product.byDepartment", department.slug)}/>
 
         <meta property="og:title" content={department.name} />
         <meta property="og:description" content={department.meta_description} />
@@ -44,7 +41,7 @@ function Index({
       </div>
 
       {products.data.length === 0 && (
-        <div className="py-16 px-8 text-center text-gray-300 text-3xl">
+        <div className="py-16 px-8 text-center text-black-300 text-3xl">
           No products found
         </div>
       )}

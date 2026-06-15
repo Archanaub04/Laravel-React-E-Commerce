@@ -39,7 +39,7 @@ class CategoriesRelationManager extends RelationManager
                             ->pluck('name', 'id')
                             ->toArray();
                     })
-                    ->label('Prent Category')
+                    ->label('Parent Category')
                     ->preload()
                     ->searchable(),
 

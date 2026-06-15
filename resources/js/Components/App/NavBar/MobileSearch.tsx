@@ -44,12 +44,12 @@ export default function MobileSearch() {
             autoFocus
             value={searchForm.data.keyword}
             onChange={(e) => searchForm.setData("keyword", e.target.value)}
-            className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500 text-sm"
+            className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500 text-sm"
             placeholder="Search products..."
           />
           <button
             type="submit"
-            className="px-3 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 text-sm"
+            className="px-3 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700 text-sm"
           >
             <MagnifyingGlassIcon className="h-4 w-4" />
           </button>

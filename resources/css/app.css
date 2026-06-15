@@ -79,10 +79,10 @@
 
 @layer components {
     .btn-primary {
-        @apply bg-purple-800 text-white font-semibold py-2 px-4 rounded hover:bg-purple-700 border-none;
+        @apply bg-orange-800 text-white font-semibold py-2 px-4 rounded hover:bg-orange-700 border-none;
     }
 
     .primary {
-        @apply bg-purple-800 text-white hover:bg-purple-700 border-none;
+        @apply bg-orange-800 text-white hover:bg-orange-700 border-none;
     }
 }

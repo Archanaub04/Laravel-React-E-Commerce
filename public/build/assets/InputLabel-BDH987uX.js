@@ -1,1 +1,0 @@
-import{j as s}from"./app-kJd0IbDP.js";function r({value:e,className:l="",children:a,...n}){return s.jsx("label",{...n,className:"label fieldset"+l,children:s.jsx("span",{className:"fieldset-legend",children:e||a})})}export{r as I};

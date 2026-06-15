@@ -31,7 +31,7 @@ export default function Failure() {
           <div className="flex justify-between mt-6">
             <Link
               href={route("shop")}
-              className="btn bg-purple-800 hover:bg-purple-700 text-white rounded-full"
+              className="btn bg-orange-800 hover:bg-orange-700 text-white rounded-full"
             >
               Back to Shop
             </Link>

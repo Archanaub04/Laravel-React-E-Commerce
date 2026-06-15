@@ -36,13 +36,11 @@
 <x-mail::subcopy>
 If you have any questions about this order, feel free to contact our support team.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+You may submit a request to return via E-CommerceCore2 App. A return request must be made within 30 days of receiving your order.
 </x-mail::subcopy>
 
 <x-mail::panel>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.
+Find out more about our return policy on our website.
 </x-mail::panel>
 
 Thanks,<br />
